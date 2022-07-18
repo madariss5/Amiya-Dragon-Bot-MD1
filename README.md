@@ -9,7 +9,7 @@
 Amiya Dragon Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/TechwithAmee1" target="_blank">Amiya</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/SACHIBOT/Lily-Ella-MD/master/XeonMedia/theme/botsis.jpg">
+<img src="https://raw.githubusercontent.com/TechwithAmee1/Amiya-Dragon-MD1/master/XeonMedia/theme/botsis.jpg">
 </p>
 
 <p align="center">
