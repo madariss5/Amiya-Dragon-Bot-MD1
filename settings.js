@@ -54,23 +54,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['94725881990'] //ur owner number
-global.ownername = "SACHINTHA FDO" //ur owner name
-global.ytname = "YT: Sachibot" //ur yt chanel name
-global.socialm = "GitHub: SACHIBOT" //ur github or insta name
+global.vcardowner = ['94767453646'] //ur owner number
+global.ownername = "MR.AMIYA" //ur owner name
+global.ytname = "YT: TechwithAmee" //ur yt chanel name
+global.socialm = "GitHub: TechwithAmee1" //ur github or insta name
 global.location = "Srilanka , Western province , Colombo" //ur location
 
 //bot bomdy 
-global.owner = ['94725881990']
-global.ownertag = '94725881990' //ur tag number
-global.botname = 'Lily Ella Bot MD' //ur bot name
-global.linkz = "https://www.youtube.com/channel/UC1-wONQE-85uzBX5JMdBxjw" //your theme url which will be displayed on whatsapp
-global.websitex = "https://www.youtube.com/channel/UC1-wONQE-85uzBX5JMdBxjw" //ur website to be displayed
-global.botscript = 'https://github.com/SACHI/Lily-Ella-MD' //script link
-global.reactmoji = "😘" //ur menu react emoji
+global.owner = ['94767453646']
+global.ownertag = '94767453646' //ur tag number
+global.botname = 'Amiya Dragon Bot MD' //ur bot name
+global.linkz = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //your theme url which will be displayed on whatsapp
+global.websitex = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //ur website to be displayed
+global.botscript = 'https://github.com/TechwithAmee1/Amiya-Dragon-MD1' //script link
+global.reactmoji = "🇱🇰" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Lily-Ella" //ur sticker watermark packname
-global.author = "SACHINTHA FDO" //ur sticker watermark author
+global.packname = "Amiya-Dragon" //ur sticker watermark packname
+global.author = "MR.AMIYA" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/botsis.jpg") //ur thumb pic
@@ -79,7 +79,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/botsis.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/botsis.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['94725881990'] //ur premium numbers
+global.premium = ['94767453646'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
