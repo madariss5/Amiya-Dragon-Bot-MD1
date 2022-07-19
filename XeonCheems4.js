@@ -1093,24 +1093,27 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `┌─❖
+                const menulist = `╭─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+╭┤✑  How Are You? 😄
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
-└┬────────────┈ ⳹
+  │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+  │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+  │𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+  │𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+  │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
+  │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+  │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+  │𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+  │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
+╭─┤𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
+│ └────────────┈ ⳹
+└─「 Please Subscribe This Channel 」
+  │ https://www.youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ
+  └┬────────────┈ ⳹
    │✑  Please Select
    │✑  The Button Below
    └─────────────┈ ⳹`
@@ -8987,214 +8990,225 @@ case 'allmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」	
-╠ ${prefix}self
-╠ ${prefix}public
-╠ ${prefix}antitag
-╠ ${prefix}rentbot [add/del]
-╠ ${prefix}rentlist
-╠ ${prefix}ban [add/del]
-╠ ${prefix}banchat [on/off]
-╠ ${prefix}join [link]
-╠ ${prefix}leavegc
-╠ ${prefix}setbio
-╠ ${prefix}bcgroup [text]
-╠ ${prefix}bcall [text]
-╠ ${prefix}bcimage [image]
-╠ ${prefix}bcvideo [video]
-╠ ${prefix}bcaudio [audio]
-╠ ${prefix}bcloc [text]
-╠ ${prefix}setppbot [image]
-╠ ${prefix}setexif
-╠ ${prefix}block [tag/number]
-╠ ${prefix}unblock [tag/number]
-╠ ${prefix}coowner [add/del]
-╠═══════✪「 GROUP 」	        
-╠${prefix}grousetting
-╠${prefix}grouplink
-╠${prefix}ephemeral [option]
-╠${prefix}setgcpp [image]
-╠${prefix}setname [text]
-╠${prefix}setdesc [text]
-╠${prefix}group 
-╠${prefix}resetgrouplink
-╠${prefix}editinfo [option]
-╠${prefix}add [user]
-╠${prefix}kick [reply/tag]
-╠${prefix}hidetag [text]
-╠${prefix}tagall [text]
-╠${prefix}antilinkgc [on/off]
-╠${prefix}antilinktg [on/off]
-╠${prefix}antilinktt [on/off]
-╠${prefix}antilinkytch [on/off]
-╠${prefix}antilinkytvid [on/off]
-╠${prefix}antilinkig [on/off]
-╠${prefix}antilinkfb [on/off]
-╠${prefix}antilinktwit [on/off]
-╠${prefix}antilinkall [on/off]
-╠${prefix}antivirus [on/off]
-╠${prefix}antitoxic [on/off]
-╠${prefix}antiwame [on/off]
-╠${prefix}autoreply [on/off]
-╠${prefix}nsfw [on/off]
-╠${prefix}promote [reply/tag]
-╠${prefix}demote [reply/tag]
-╠${prefix}react [reply emoji]
-╠${prefix}vote
-╠${prefix}devote
-╠${prefix}upvote
-╠${prefix}checkvote
-╠${prefix}delvote
-╠═══════✪「 MAKER 」
-╠${prefix}candy
-╠${prefix}blackpinkneon
-╠${prefix}deepsea
-╠${prefix}scifi
-╠${prefix}fiction
-╠${prefix}berry
-╠${prefix}fruitjuice
-╠${prefix}biscuit
-╠${prefix}wood
-╠${prefix}chocolate
-╠${prefix}matrix
-╠${prefix}blood
-╠${prefix}halloween
-╠${prefix}wicker
-╠${prefix}darkgold
-╠${prefix}firework
-╠${prefix}skeleton
-╠${prefix}sand
-╠${prefix}glue
-╠${prefix}leaves
-╠${prefix}magma
-╠${prefix}lava
-╠${prefix}rock
-╠${prefix}bloodglas
-╠${prefix}underwater
-╠${prefix}textmaker
-╠${prefix}honey
-╠${prefix}ice
-╠${prefix}watercolor
-╠${prefix}multicolor
-╠${prefix}snow
-╠${prefix}harrypot
-╠${prefix}harrypotter
-╠${prefix}brokenglass
-╠${prefix}waterpipe
-╠${prefix}spooky
-╠${prefix}circuit
-╠${prefix}metallic
-╠${prefix}demon
-╠${prefix}sparklechristmas
-╠${prefix}christmas
-╠${prefix}3dchristmas
-╠${prefix}3dbox
-╠${prefix}waterdrop
-╠${prefix}lion2
-╠${prefix}papercut
-╠${prefix}transformer
-╠${prefix}neondevil
-╠${prefix}3davengers
-╠${prefix}3dstone
-╠${prefix}3dstone2
-╠${prefix}summertime
-╠${prefix}thunder
-╠${prefix}window
-╠${prefix}graffiti
-╠${prefix}graffitibike
-╠${prefix}pornhub
-╠${prefix}glitch
-╠${prefix}blackpink
-╠${prefix}glitch2
-╠${prefix}glitch3
-╠${prefix}3dspace
-╠${prefix}lion
-╠${prefix}3dneon
-╠${prefix}greenneon
-╠${prefix}bokeh
-╠${prefix}holographic
-╠${prefix}bear
-╠${prefix}wolf
-╠${prefix}joker
-╠${prefix}dropwater
-╠${prefix}dropwater2
-╠${prefix}thewall
-╠${prefix}neonlight
-╠${prefix}natural
-╠${prefix}carbon
-╠${prefix}pencil
-╠${prefix}blackpink2
-╠${prefix}neon
-╠${prefix}neonlight2
-╠${prefix}toxic
-╠${prefix}strawberry
-╠${prefix}discovery
-╠${prefix}1917
-╠ ${prefix}sci_fi
-╠ ${prefix}ancient
-╠ ${prefix}fabric
-╠ ${prefix}hoorror
-╠ ${prefix}whitebear
-╠ ${prefix}juice
-╠ ${prefix}batman
-╠ ${prefix}multicolor
-╠ ${prefix}collwall
-╠ ${prefix}wonderful
-╠ ${prefix}cool
-╠ ${prefix}sketch
-╠ ${prefix}marvel
-╠ ${prefix}foggy
-╠ ${prefix}writing
-╠ ${prefix}halloweenfire
-╠ ${prefix}halloween
-╠ ${prefix}watercolor
-╠ ${prefix}classic
-╠═════✪「 DOWNLOAD 」	
-╠${prefix}instagram [url]
-╠${prefix}igtv [url]
-╠${prefix}igstory [username]
-╠${prefix}facebook [url]
-╠${prefix}fbmp3 [url]
-╠${prefix}twitter [url]
-╠${prefix}twittermp3 [url]
-╠${prefix}tiktok [url]
-╠${prefix}tiktokaudio[url]
-╠${prefix}tiktoknowm [url]
-╠${prefix}mediafire [url]
-╠${prefix}ytmp3 [url|quality]
-╠${prefix}ytmp4 [url|quality]
-╠${prefix}getmusic [yt link]
-╠${prefix}getvideo [yt link]
-╠${prefix}gitclone [repo link]
-╠${prefix}soundcloud [url]
-╠${prefix}zippyshare [url]
-╠═══════✪「 SEARCH 」	
-╠${prefix}play [query]
-╠${prefix}song [query]
-╠${prefix}yts [query]
-╠${prefix}lyrics [query]
-╠${prefix}google [query]
-╠${prefix}playstore [query]
-╠${prefix}gimage [query]
-╠${prefix}pinterest [query]
-╠${prefix}image [query]
-╠${prefix}film [query]
-╠${prefix}wallpaper [query]
-╠${prefix}searchgc [query]
-╠${prefix}happymod [query]
-╠${prefix}servermc
-╠${prefix}mcpedl [query]
-╠${prefix}tvsearch [query]
-╠${prefix}wikimedia [query]
-╠${prefix}ytsearch [query]
-╠${prefix}ringtone [query]
-╠${prefix}webtoon [query]
-╠${prefix}anime [query]
-╠${prefix}animestory [query]
-╠${prefix}manga [query]
-╠${prefix}wattpad [query]
-╠ ${prefix}mcserver [ip|port]
-╠ ${prefix}drakor [query]
+await XeonBotInc.send5ButImg(from, `╭─────❏ ✪『 OWNER 』✪	
+│ ⛧⸸  ${prefix}self
+│ ⛧⸸  ${prefix}public
+│ ⛧⸸  ${prefix}antitag
+│ ⛧⸸  ${prefix}rentbot [add/del]
+│ ⛧⸸  ${prefix}rentlist
+│ ⛧⸸  ${prefix}ban [add/del]
+│ ⛧⸸  ${prefix}banchat [on/off]
+│ ⛧⸸  ${prefix}join [link]
+│ ⛧⸸  ${prefix}leavegc
+│ ⛧⸸  ${prefix}setbio
+│ ⛧⸸  ${prefix}bcgroup [text]
+│ ⛧⸸  ${prefix}bcall [text]
+│ ⛧⸸  ${prefix}bcimage [image]
+│ ⛧⸸  ${prefix}bcvideo [video]
+│ ⛧⸸  ${prefix}bcaudio [audio]
+│ ⛧⸸  ${prefix}bcloc [text]
+│ ⛧⸸  ${prefix}setppbot [image]
+│ ⛧⸸  ${prefix}setexif
+│ ⛧⸸  ${prefix}block [tag/number]
+│ ⛧⸸  ${prefix}unblock [tag/number]
+│ ⛧⸸  ${prefix}coowner [add/del]
+╰───────────────❏
+
+╭─────❏ ✪『 GROUP 』✪		        
+│ ⛧⸸  {prefix}grousetting
+│ ⛧⸸  ${prefix}grouplink
+│ ⛧⸸  ${prefix}ephemeral [option]
+│ ⛧⸸  ${prefix}setgcpp [image]
+│ ⛧⸸  ${prefix}setname [text]
+│ ⛧⸸  ${prefix}setdesc [text]
+│ ⛧⸸  ${prefix}group 
+│ ⛧⸸  ${prefix}resetgrouplink
+│ ⛧⸸  ${prefix}editinfo [option]
+│ ⛧⸸  ${prefix}add [user]
+│ ⛧⸸  ${prefix}kick [reply/tag]
+│ ⛧⸸  ${prefix}hidetag [text]
+│ ⛧⸸  ${prefix}tagall [text]
+│ ⛧⸸  ${prefix}antilinkgc [on/off]
+│ ⛧⸸  ${prefix}antilinktg [on/off]
+│ ⛧⸸  ${prefix}antilinktt [on/off]
+│ ⛧⸸  ${prefix}antilinkytch [on/off]
+│ ⛧⸸  ${prefix}antilinkytvid [on/off]
+│ ⛧⸸  ${prefix}antilinkig [on/off]
+│ ⛧⸸  ${prefix}antilinkfb [on/off]
+│ ⛧⸸  ${prefix}antilinkall [on/off]
+│ ⛧⸸  ${prefix}antilinktwit [on/off]
+│ ⛧⸸  ${prefix}antilinkall [on/off]
+│ ⛧⸸  ${prefix}antivirus [on/off]
+│ ⛧⸸  ${prefix}antitoxic [on/off]
+│ ⛧⸸  ${prefix}antiwame [on/off]
+│ ⛧⸸  ${prefix}autoreply [on/off]
+│ ⛧⸸  ${prefix}nsfw [on/off]
+│ ⛧⸸  ${prefix}promote [reply/tag]
+│ ⛧⸸  ${prefix}demote [reply/tag]
+│ ⛧⸸  ${prefix}react [reply emoji]
+│ ⛧⸸  ${prefix}vote
+│ ⛧⸸  ${prefix}devote
+│ ⛧⸸  ${prefix}upvote
+│ ⛧⸸  ${prefix}checkvote
+│ ⛧⸸  ${prefix}delvote
+╰───────────────❏
+
+╭─────❏ ✪『 MAKER 』✪	
+│ ⛧⸸  ${prefix}candy
+│ ⛧⸸  ${prefix}blackpinkneon
+│ ⛧⸸  ${prefix}deepsea
+│ ⛧⸸  ${prefix}scifi
+│ ⛧⸸  ${prefix}fiction
+│ ⛧⸸  ${prefix}berry
+│ ⛧⸸  ${prefix}fruitjuice
+│ ⛧⸸  ${prefix}biscuit
+│ ⛧⸸  ${prefix}wood
+│ ⛧⸸  ${prefix}chocolate
+│ ⛧⸸  ${prefix}matrix
+│ ⛧⸸  ${prefix}blood
+│ ⛧⸸  ${prefix}halloween
+│ ⛧⸸  ${prefix}wicker
+│ ⛧⸸  ${prefix}darkgold
+│ ⛧⸸  ${prefix}firework
+│ ⛧⸸  ${prefix}skeleton
+│ ⛧⸸  ${prefix}sand
+│ ⛧⸸  ${prefix}glue
+│ ⛧⸸  ${prefix}leaves
+│ ⛧⸸  ${prefix}magma
+│ ⛧⸸  ${prefix}lava
+│ ⛧⸸  ${prefix}rock
+│ ⛧⸸  ${prefix}bloodglas
+│ ⛧⸸  ${prefix}underwater
+│ ⛧⸸  ${prefix}textmaker
+│ ⛧⸸  ${prefix}honey
+│ ⛧⸸  ${prefix}ice
+│ ⛧⸸  ${prefix}watercolor
+│ ⛧⸸  ${prefix}multicolor
+│ ⛧⸸  ${prefix}snow
+│ ⛧⸸  ${prefix}harrypot
+│ ⛧⸸  ${prefix}harrypotter
+│ ⛧⸸  ${prefix}brokenglass
+│ ⛧⸸  ${prefix}waterpipe
+│ ⛧⸸  ${prefix}spooky
+│ ⛧⸸  ${prefix}circuit
+│ ⛧⸸  ${prefix}metallic
+│ ⛧⸸  ${prefix}demon
+│ ⛧⸸  ${prefix}sparklechristmas
+│ ⛧⸸  ${prefix}christmas
+│ ⛧⸸  ${prefix}3dchristmas
+│ ⛧⸸  ${prefix}3dbox
+│ ⛧⸸  ${prefix}waterdrop
+│ ⛧⸸  ${prefix}lion2
+│ ⛧⸸  ${prefix}papercut
+│ ⛧⸸  ${prefix}transformer
+│ ⛧⸸  ${prefix}neondevil
+│ ⛧⸸  ${prefix}3davengers
+│ ⛧⸸  ${prefix}3dstone
+│ ⛧⸸  ${prefix}3dstone2
+│ ⛧⸸  ${prefix}summertime
+│ ⛧⸸  ${prefix}thunder
+│ ⛧⸸  ${prefix}window
+│ ⛧⸸  ${prefix}graffiti
+│ ⛧⸸  ${prefix}graffitibike
+│ ⛧⸸  ${prefix}pornhub
+│ ⛧⸸  ${prefix}glitch
+│ ⛧⸸  ${prefix}blackpink
+│ ⛧⸸  ${prefix}glitch2
+│ ⛧⸸  ${prefix}glitch3
+│ ⛧⸸  ${prefix}3dspace
+│ ⛧⸸  ${prefix}lion
+│ ⛧⸸  ${prefix}3dneon
+│ ⛧⸸  ${prefix}greenneon
+│ ⛧⸸  ${prefix}bokeh
+│ ⛧⸸  ${prefix}holographic
+│ ⛧⸸  ${prefix}bear
+│ ⛧⸸  ${prefix}wolf
+│ ⛧⸸  ${prefix}joker
+│ ⛧⸸  ${prefix}dropwater
+│ ⛧⸸  ${prefix}dropwater2
+│ ⛧⸸  ${prefix}thewall
+│ ⛧⸸  ${prefix}neonlight
+│ ⛧⸸  ${prefix}natural
+│ ⛧⸸  ${prefix}carbon
+│ ⛧⸸  ${prefix}pencil
+│ ⛧⸸  ${prefix}blackpink2
+│ ⛧⸸  ${prefix}neon
+│ ⛧⸸  ${prefix}neonlight2
+│ ⛧⸸  ${prefix}toxic
+│ ⛧⸸  ${prefix}strawberry
+│ ⛧⸸  ${prefix}discovery
+│ ⛧⸸  ${prefix}1917
+│ ⛧⸸  ${prefix}sci_fi
+│ ⛧⸸  ${prefix}ancient
+│ ⛧⸸  ${prefix}fabric
+│ ⛧⸸  ${prefix}hoorror
+│ ⛧⸸  ${prefix}whitebear
+│ ⛧⸸  ${prefix}juice
+│ ⛧⸸  ${prefix}batman
+│ ⛧⸸  ${prefix}multicolor
+│ ⛧⸸  ${prefix}collwall
+│ ⛧⸸  ${prefix}wonderful
+│ ⛧⸸  ${prefix}cool
+│ ⛧⸸  ${prefix}sketch
+│ ⛧⸸  ${prefix}marvel
+│ ⛧⸸  ${prefix}foggy
+│ ⛧⸸  ${prefix}writing
+│ ⛧⸸  ${prefix}halloweenfire
+│ ⛧⸸  ${prefix}halloween
+│ ⛧⸸  ${prefix}watercolor
+│ ⛧⸸  ${prefix}classic
+╰───────────────❏
+
+╭─────❏ ✪『 DOWNLOAD 』✪	
+│ ⛧⸸  ${prefix}instagram [url]
+│ ⛧⸸  ${prefix}igtv [url]
+│ ⛧⸸  ${prefix}igstory [username]
+│ ⛧⸸  ${prefix}facebook [url]
+│ ⛧⸸  ${prefix}fbmp3 [url]
+│ ⛧⸸  ${prefix}twitter [url]
+│ ⛧⸸  ${prefix}twittermp3 [url]
+│ ⛧⸸  ${prefix}tiktok [url]
+│ ⛧⸸  ${prefix}tiktokaudio[url]
+│ ⛧⸸  ${prefix}tiktoknowm [url]
+│ ⛧⸸  ${prefix}mediafire [url]
+│ ⛧⸸  ${prefix}ytmp3 [url|quality]
+│ ⛧⸸  ${prefix}ytmp4 [url|quality]
+│ ⛧⸸  ${prefix}getmusic [yt link]
+│ ⛧⸸  ${prefix}getvideo [yt link]
+│ ⛧⸸  ${prefix}gitclone [repo link]
+│ ⛧⸸  ${prefix}soundcloud [url]
+│ ⛧⸸  ${prefix}zippyshare [url]
+╰───────────────❏
+
+╭─────❏ ✪『 SEARCH 」	
+│ ⛧⸸  ${prefix}play [query]
+│ ⛧⸸  ${prefix}song [query]
+│ ⛧⸸  ${prefix}yts [query]
+│ ⛧⸸  ${prefix}lyrics [query]
+│ ⛧⸸  ${prefix}google [query]
+│ ⛧⸸  ${prefix}playstore [query]
+│ ⛧⸸  ${prefix}gimage [query]
+│ ⛧⸸  ${prefix}pinterest [query]
+│ ⛧⸸  ${prefix}image [query]
+│ ⛧⸸  ${prefix}film [query]
+│ ⛧⸸  ${prefix}wallpaper [query]
+│ ⛧⸸  ${prefix}searchgc [query]
+│ ⛧⸸  ${prefix}happymod [query]
+│ ⛧⸸  ${prefix}servermc
+│ ⛧⸸  ${prefix}mcpedl [query]
+│ ⛧⸸  ${prefix}tvsearch [query]
+│ ⛧⸸  ${prefix}wikimedia [query]
+│ ⛧⸸  ${prefix}ytsearch [query]
+│ ⛧⸸  ${prefix}ringtone [query]
+│ ⛧⸸  ${prefix}webtoon [query]
+│ ⛧⸸  ${prefix}anime [query]
+│ ⛧⸸  ${prefix}animestory [query]
+│ ⛧⸸  ${prefix}manga [query]
+│ ⛧⸸  ${prefix}wattpad [query]
+│ ⛧⸸  ${prefix}mcserver [ip|port]
+│ ⛧⸸  ${prefix}drakor [query]
+╰───────────────❏
+
 ╠═══════✪「 CONVERT 」
 ╠ ${prefix}toimage [reply stick]
 ╠ ${prefix}sticker [reply img|gif]
