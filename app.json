@@ -2,7 +2,7 @@
   "name": "Amiya-Dragon-MD1",
   "description": "amiya dragon whatsapp md bot build with nodejs",
   "repository": "https://github.com/TechwithAmee1/Amiya-Dragon-MD1",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": "https://raw.githubusercontent.com/TechwithAmee1/Amiya-Dragon-MD1/master/XeonMedia/theme/bot.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
