@@ -69,7 +69,7 @@ global.websitex = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //ur we
 global.botscript = 'https://github.com/TechwithAmee1/Amiya-Dragon-MD1' //script link
 global.reactmoji = "🇱🇰" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Amiya-Dragon" //ur sticker watermark packname
+global.packname = "Amiya-Dragon-MD" //ur sticker watermark packname
 global.author = "MR.AMIYA" //ur sticker watermark author
 
 //Bot theme media
