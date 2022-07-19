@@ -2,7 +2,7 @@
 
 <h1 align="center">AMIYA-DRAGON-MD<br></h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/SACHIBOT/Lily-Ella-MD/master/XeonMedia/theme/bot.jpg">
+<img src="https://raw.githubusercontent.com/TechwithAmee1/Amiya-Dragon-MD1/master/XeonMedia/theme/bot.jpg">
 </p>
 
 <p align="center">
