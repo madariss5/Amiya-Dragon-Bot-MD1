@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//© 2022 Amiya Bot Inc. Amiya Dragon Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe hai ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me Amiya ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -16,7 +16,7 @@
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put Xeons youtube channel link in the video
+//put Amiya's youtube channel link in the video
 //description and tag me on githuh repo, 
 //thank you🦄
 //════════════════════════════//
@@ -105,15 +105,15 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
+    success: 'ඔන්න හරි 🔥💯\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    admin: 'ඇඩ්මින්ලට විතරයි මේක පුලුවන් ළමයෝ 🌝\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    botAdmin: 'ඇඩ්මින් දියන්කෝ මුලින් 😒\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    owner: 'Owner ට විතරයි ළමයෝ ඕක පුලුවන් 🙏\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    group: 'group වල විතරයි ඕක😒\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    private: 'inbox විතරයි පුලුවන්🌝\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    bot: 'මේක මට විතරයි පුලුවන්😌👍 ඔයා පාඩුවේ ඉන්න 😒\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    wait: '😘 චුට්ටක් ඉන්න බබා 🥰🙏\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
+    linkm: 'කෝ 𝚕𝚒𝚗𝚔 එක 😒\n\n🔥༺AMIYA༒DRAGON༻🔥\n\n♥️𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙾𝚞𝚛 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕♥️\n\nhttps://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ',
     error: 'Error!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
