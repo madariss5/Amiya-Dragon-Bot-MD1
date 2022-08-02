@@ -60,7 +60,7 @@ Go to My YouTube Channel using Above Button and Subscribe My YouTube Channel.
 - FORK THE REPOSITORY [Here](https://github.com/TechwithAmee1/Amiya-Dragon-MD1/fork)
 
 ## `Scan QR Code For Session`
-[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@AmiyaProgrammer/Amiya-Dragon-Bot-MD1)
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@AmiyaProgrammer/Amiya-Dragon-Bot-MD1?v=1)
 
 ## `SETTINGS`
 
