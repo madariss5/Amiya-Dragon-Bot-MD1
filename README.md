@@ -2,14 +2,14 @@
 
 <h1 align="center">AMIYA-DRAGON-MD<br></h1>
 <p align="center">
-<img src="https://i.ibb.co/30VVgGW/Amiya.jpg" width="400" height="400" alt="">
+<img src="https://i.ibb.co/30VVgGW/Amiya.jpg" width="300" height="300" alt="">
 </p>
 
 <p align="center">
 Amiya Dragon Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/TechwithAmee1" target="_blank">Amiya</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 <p align="center">
-<img src="https://i.ibb.co/30VVgGW/Amiya.jpg" width="400" height="400" alt="">
+<img src="https://i.ibb.co/30VVgGW/Amiya.jpg" width="300" height="300" alt="">
 </p>
 
 <p align="center">
