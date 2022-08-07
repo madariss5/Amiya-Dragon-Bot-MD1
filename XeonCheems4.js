@@ -6130,7 +6130,7 @@ if (isBanChat) return reply(mess.banChat)
 if (!args.join(" ")) return replay(`Example : ${prefix + command} stay jb`)
 let yts = require("yt-search")
 let search = await yts(args.join(" "))
-let teks = '*| YOUTUBE SEARCH |*\n\n Result From '+text+'\n\n'
+let teks = '*| DRAGON BOT YOUTUBE SEARCH |*\n\n Result From '+text+'\n\n'
 let no = 1
 for (let i of search.all) {
 teks += `${global.themeemoji} No : ${no++}\n${global.themeemoji} Type : ${i.type}\n${global.themeemoji} Video ID : ${i.videoId}\n${global.themeemoji} Title : ${i.title}\n${global.themeemoji} Views : ${i.views}\n${global.themeemoji} Duration : ${i.timestamp}\n${global.themeemoji} Uploaded : ${i.ago}\n${global.themeemoji} Author : ${i.author.name}\n${global.themeemoji} Url : ${i.url}\n\n─────────────────\n\n`
@@ -6369,7 +6369,7 @@ if (isBanChat) return reply(mess.banChat)
             case 'twitter': case 'td': case 'twitterdl': {     
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)	             
-             if (!text) return reply(`Where is the link?`)
+             if (!text) return reply(`කෝ බන් ලින්ක් එක😒?`)
                 if (!isUrl(args[0]) && !args[0].includes('twitter.com')) return reply(`The link you provided is not valid`)
                 xeonkey.Twitter(`${text}`).then(async (data) => {                    
                     let txt = `*TWITTER DOWNLOADER*\n\n`
@@ -6393,7 +6393,7 @@ if (isBanChat) return reply(mess.banChat)
             case 'twittermp3': case 'twitteraudio': { 
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)	             
-             if (!text) return reply(`Where is the link?`)
+             if (!text) return reply(`කෝ බන් ලින්ක් එක😒?`)
                 if (!isUrl(args[0]) && !args[0].includes('twitter.com')) return reply(`*The link you provided is not valid*`)
                 xeonkey.Twitter(`${text}`).then(async (data) => {
                 XeonBotInc.sendMessage(m.chat, { audio: { url: data.medias[1].url }, mimetype: 'audio/mp4'}, { quoted: m })
@@ -6468,7 +6468,7 @@ break
 case 'fbdl': case 'fb': case 'facebook': case 'fbmp4': {     	    
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-             if (!text) return reply(`Where is the link bro?\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
+             if (!text) return reply(`කෝ බන් ලින්ක් එක😒?\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
                 if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(`The link you provided is not valid`)
             let bocil = require('@bochilteam/scraper')  
                 bocil.facebookdlv2(`${text}`).then(async (data) => {                   
@@ -6491,7 +6491,7 @@ if (isBanChat) return reply(mess.banChat)
             case 'fbmp3': case 'facebookmp3': case 'facebookaudio': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-                  if (!text) return reply(`Where is the link?\nExample: ${prefix + command} https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
+                  if (!text) return reply(`කෝ බන් ලින්ක් එක😒?\nExample: ${prefix + command} https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
                   if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(`The link you provided is not valid`)
   let noh = require('@bochilteam/scraper')                
   noh.savefrom(`${text}`).then(async (anu) => {  
@@ -7958,9 +7958,9 @@ break
 	    case 'tiktok':{
   	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-  if (!q) return reply('Where is the link?')
+  if (!q) return reply('කෝ බන් ලින්ක් එක😒?')
   reply(mess.wait)
-  if (!q.includes('tiktok')) return reply(`That's not a tiktok link!`)
+  if (!q.includes('tiktok')) return reply(`මේ tiktok ලින්ක් එකක් නෙවෙයිනේ😒!`)
    const musim_rambutan = await XeonBotIncTiktok(`${q}`).catch(e => {
  reply(mess.error) 
 } )
@@ -7993,9 +7993,9 @@ break
   case 'tiktoknowm': case 'ttnowm':{
   	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-  if (!q) return reply('Where is the link?')
+  if (!q) return reply('කෝ බන් ලින්ක් එක😒?')
   reply(mess.wait)
-  if (!q.includes('tiktok')) return reply(`That's not a tiktok link!`)
+  if (!q.includes('tiktok')) return reply(`මේ tiktok ලින්ක් එකක් නෙවෙයිනේ😒!`)
    const musim_rambutan = await XeonBotIncTiktok(`${q}`).catch(e => {
  reply(mess.error) 
 } )
@@ -8010,7 +8010,7 @@ case 'ttaud':{
 	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
   if (!q) return reply('Where is the audio?')
-  if (!q.includes('tiktok')) return reply(`That's not a tiktok link!`)
+  if (!q.includes('tiktok')) return reply(`මේ tiktok ලින්ක් එකක් නෙවෙයිනේ😒!`)
    const musim_rambutan = await XeonBotIncTiktok(`${q}`).catch(e => {
  reply(mess.error) 
 } )
@@ -8027,8 +8027,8 @@ let search = await yts(text)
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 let ytvc = await hx.youtube(anu.url)
 let buttons = [
-{buttonId: `ytvd ${ytvc.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `ytvd ${ytvc.link}`, buttonText: {displayText: '📽️ වීඩියෝව'}, type: 1},
+{buttonId: `ytad ${ytvc.mp3}`, buttonText: {displayText: '♫ සින්දුව'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
@@ -8073,8 +8073,8 @@ ${global.themeemoji} Quality : ${res.quality}
 
 _Select video or audio and wait a while_`
 let buttons = [
-{buttonId: `ytvd ${res.link}`, buttonText: {displayText: '► Video'}, type: 1},
-{buttonId: `ytad ${res.mp3}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+{buttonId: `ytvd ${res.link}`, buttonText: {displayText: '📽️ වීඩියෝව'}, type: 1},
+{buttonId: `ytad ${res.mp3}`, buttonText: {displayText: '♫ සින්දුව'}, type: 1}
 ]
 let buttonMessage = {
 image: {url:res.thumb},
@@ -8164,7 +8164,7 @@ try {
 hx.pinterest(args.join(" ")).then(async(res) => {
 imgnyee = res[Math.floor(Math.random() * res.length)]
 let buttons = [
-{buttonId: `pinterest ${args.join(" ")}`, buttonText: {displayText: 'Next Image 👀'}, type: 1}
+{buttonId: `pinterest ${args.join(" ")}`, buttonText: {displayText: 'මීලග රූපය 👀'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: imgnyee },
@@ -8213,8 +8213,8 @@ break
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
 		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵Audio🎵'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵සින්දුව🎵'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️වීඩියෝව📽️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
