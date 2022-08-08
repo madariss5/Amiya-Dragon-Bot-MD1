@@ -77,7 +77,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TechwithAmee1/Amiya-Dragon-MD1/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/TechwithAmee1/Amiya-Dragon-Bot-MD1)
 
 # Install Manually 👇
 ## `Requirements`
