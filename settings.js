@@ -61,8 +61,8 @@ global.socialm = "amiyaprogramer@gmail.com" //ur github or insta name
 global.location = "Srilanka , Southern province , Hambantota" //ur location
 
 //bot bomdy 
-global.owner = ['94767453646,16316743220']
-global.ownertag = '94767453646,16316743220' //ur tag number
+global.owner = ['94767453646']
+global.ownertag = '94767453646' //ur tag number
 global.botname = 'Amiya Dragon Bot MD' //ur bot name
 global.linkz = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //ur website to be displayed
