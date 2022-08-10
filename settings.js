@@ -68,7 +68,7 @@ global.linkz = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //your the
 global.websitex = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //ur website to be displayed
 global.botscript = 'This whatsapp md bot is testing now. we release this bot immediatly🥰.' //script link
 global.reactmoji = "🇱🇰" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
+global.themeemoji = "🐉" //ur theme emoji
 global.packname = "Amiya-Dragon-MD" //ur sticker watermark packname
 global.author = "MR.AMIYA" //ur sticker watermark author
 
