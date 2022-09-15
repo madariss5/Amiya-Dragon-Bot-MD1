@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['94767453646'] //ur owner number
-global.ownername = "MR.AMIYA" //ur owner name
+global.ownername = "😎៚ᴍʀͥ.ᴀͣᴍͫɪʏᴀ͢⁸⁵⁴¹⃟✦⃝̮̮〽️ 😈" //ur owner name
 global.ytname = "YT - TechwithAmee" //ur yt chanel name
 global.socialm = "amiyaprogramer@gmail.com" //ur github or insta name
 global.location = "Srilanka , Southern province , Hambantota" //ur location
@@ -63,14 +63,14 @@ global.location = "Srilanka , Southern province , Hambantota" //ur location
 //bot bomdy 
 global.owner = ['94767453646']
 global.ownertag = '94767453646' //ur tag number
-global.botname = 'Amiya Dragon Bot MD' //ur bot name
+global.botname = '🐉 𝙰𝙼𝙸𝚈𝙰 𝙳𝚁𝙰𝙶𝙾𝙽 𝙱𝙾𝚃 🐉' //ur bot name
 global.linkz = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtube.com/channel/UCVSZitR2NTFW9K9wl-luCzQ" //ur website to be displayed
 global.botscript = 'This whatsapp md bot is testing now. we release this bot immediatly🥰.' //script link
 global.reactmoji = "🇱🇰" //ur menu react emoji
 global.themeemoji = "🐉" //ur theme emoji
-global.packname = "Amiya-Dragon-MD" //ur sticker watermark packname
-global.author = "MR.AMIYA" //ur sticker watermark author
+global.packname = "🐉 𝙰𝙼𝙸𝚈𝙰 𝙳𝚁𝙰𝙶𝙾𝙽 𝙼𝙳 🐉" //ur sticker watermark packname
+global.author = "༺៚ᴍʀͥ.ᴀͣᴍͫɪʏᴀッ༒ッʙ͋ᴏ̐̈́ᴛ͋乡࿐" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/botsis.jpg") //ur thumb pic
